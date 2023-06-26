@@ -2,13 +2,13 @@
     "name": "JackYangDemo",
     "description": "",
     "dependencies": {
-        "core": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
         "main.ts",
         "README.md",
-        "main.py"
+        "main.py",
+        "_locales/zh-CN/README.md"
     ],
     "testFiles": [
         "test.ts"
@@ -20,5 +20,16 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "pyprj"
+    "preferredEditor": "tsprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 0,
+                    "whitelist": 1,
+                    "security_level": "SECURITY_MODE_ENCRYPTION_NO_MITM"
+                }
+            }
+        }
+    }
 }
