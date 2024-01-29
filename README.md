@@ -8,9 +8,9 @@
 * 点击齿轮图标菜单下的 **扩展**
 * 搜索 **https://github.com/jackyang-hellobobo/microbit_makecodedev** 并导入
 
-## 编辑此项目
+## 导入此项目
 
-在 MakeCode 中编辑此仓库。
+在 MakeCode 中导入此仓库。
 
 * 打开 [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * 点击 **导入**，然后点击 **导入 URL**
